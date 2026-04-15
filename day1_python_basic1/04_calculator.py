@@ -20,7 +20,7 @@ try:
         print(f"{num1} * {num2} = {result}")
     elif op == "/":
         if num2 == 0:
-            print("错误！除数不能为0")
+            print("错误!除数不能为0")
         else:
             result = num1 / num2
             print(f"{num1} / {num2} = {result}")
