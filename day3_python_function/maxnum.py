@@ -1,3 +1,4 @@
+from fibonacci import fibonacci 
 def max_num(list1):
 
     if not list1:  # 处理空列表异常
@@ -10,4 +11,5 @@ def max_num(list1):
     return max1
 
 list1=[1,3,2,4,5]
+print(f"斐波那契数列前10项：{fibonacci(10)}")
 print(max_num(list1))

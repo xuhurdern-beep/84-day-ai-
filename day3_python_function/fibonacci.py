@@ -13,3 +13,4 @@ def fibonacci(n):
 if __name__ == "__main__":
     n = 10
     print(f"前 {n} 个斐波那契数列：{fibonacci(n)}")
+    
